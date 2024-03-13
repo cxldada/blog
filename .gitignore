@@ -8,3 +8,4 @@
 /static
 /themes
 !.gitignore
+!.git
