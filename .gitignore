@@ -1,0 +1,10 @@
+.*
+/archetypes  
+/assets
+/data
+/layouts
+/public
+/resources
+/static
+/themes
+!.gitignore
