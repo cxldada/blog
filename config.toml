@@ -1,0 +1,66 @@
+baseURL = 'http://www.cxldada.cn:2048'
+languageCode = 'zh-cn'
+title = 'cxldada'
+theme = 'archie'
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=6
+
+[taxonomies]
+    categories = 'categories'
+    # tag = 'tags'
+
+[params]
+    mode= "toggle" # color-mode → light,dark,toggle or autoeCDN
+    useCDN= false # don't use CDNs for fonts and icons, instead serve them locally.
+    subtitle = "cxldada's blog"
+    mathjax = true # enable MathJax supporttex
+    katex = true # enable KaTeX suphttps://gitlab.com/athul/"port
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/cxldada"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = ""
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = ""
+
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 3
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 5
+
