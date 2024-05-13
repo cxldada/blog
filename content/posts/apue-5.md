@@ -26,7 +26,7 @@ categories:
 2. 调用`exit`函数
 3. 调用`_exit`或`_Exit`
 4. 最后一个线程从启动例程返回
-5. 从最后一个线程调用`pthread_exit`
+5. 最后一个线程调用`pthread_exit`
 
 还有3种异常终止：
 
@@ -60,7 +60,7 @@ void _exit(int statu);
 
 如果`main`的返回类型是整型，且`main`执行到最后一条语句时返回，那么该终止状态为0
 
-`main`函数返回一个整数值域用该值调用`exit`是等价的
+`main`函数返回一个整数值与用该值调用`exit`是等价的
 
 ## 终止处理函数
 
@@ -81,7 +81,7 @@ int atexit(void (*func)(void));
 
 # 命令行参数
 
-`ISO C`和`POSIX`都要求`argv[argc]`是一个空指针。这就使得我们可以将参数处理循环改为如下格式
+`ISO C`和`POSIX`都要求`argv(argc)`是一个空指针。这就使得我们可以将参数处理循环改为如下格式
 
 ```c
 for (int i = 0; argv[i] != NULL; ++i)

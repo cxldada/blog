@@ -41,10 +41,10 @@ UNIX系统中的`shell`会把：
 ```c
 #include <fcntl.h>
 
-int open(const char *path,int oflag,...);
+int open(const char *path,int oflag, ...);
 // 成功返回文件描述符，出错返回-1
 
-int openat(int fd,const char *path,int oflag,...);
+int openat(int fd,const char *path,int oflag, ...);
 // 成功返回文件描述符，出错返回-1
 ```
 

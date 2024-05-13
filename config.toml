@@ -16,7 +16,7 @@ paginate=6
 [params]
     mode= "toggle" # color-mode → light,dark,toggle or autoeCDN
     useCDN= false # don't use CDNs for fonts and icons, instead serve them locally.
-    subtitle = "cxldada's blog"
+    # subtitle = "cxldada's blog"
     mathjax = true # enable MathJax supporttex
     katex = true # enable KaTeX suphttps://gitlab.com/athul/"port
 
@@ -40,18 +40,18 @@ url = ""
 # Main menu Items
 
 [[menu.main]]
-name = "Home"
+name = "主页"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Posts"
-url = "/posts"
+name = "分类"
+url = "/categories"
 weight = 2
 
 [[menu.main]]
-name = "Categories"
-url = "/categories"
+name = "标签"
+url = "/posts"
 weight = 3
 
 # [[menu.main]]
@@ -60,7 +60,7 @@ weight = 3
 # weight = 4
 
 [[menu.main]]
-name = "About"
+name = "关于"
 url = "/about"
 weight = 5
 
